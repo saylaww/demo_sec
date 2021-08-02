@@ -11,7 +11,7 @@ public class MainController {
 
     @GetMapping
     public String main(){
-        return "Main PAGE";
+        return "Main CONTROLLER";
     }
 
     @GetMapping("/test")
